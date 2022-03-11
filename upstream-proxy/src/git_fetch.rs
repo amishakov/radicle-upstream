@@ -104,7 +104,7 @@ impl Runner {
                 },
             };
             identity_queue
-                .add(identity, std::time::Duration::from_secs(10))
+                .add(identity, std::time::Duration::from_secs(1))
                 .await;
         }
     }
